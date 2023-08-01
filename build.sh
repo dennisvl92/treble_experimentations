@@ -10,10 +10,6 @@ if [ -z "$USER" ];then
 fi
 export LC_ALL=C
 
-manifest_url="https://android.googlesource.com/platform/manifest"
-aosp="android-8.1.0_r65"
-phh="android-8.1"
-
 build_target="$1"
 rebuild_release=""
 manifest_url="https://android.googlesource.com/platform/manifest"
