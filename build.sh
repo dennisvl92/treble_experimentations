@@ -71,7 +71,7 @@ cp patches.zip release/$rom_fp/patches-for-developers.zip
 # ARM64 floss {ab, a-only, ab vndk lite}
 #buildVariant treble_arm64_bfS-userdebug roar-arm64-ab-floss
 ##( cd sas-creator; bash run.sh 64 ; xz -c s.img -T0 > ../release/$rom_fp/system-roar-arm64-aonly-floss.img.xz)
-( cd sas-creator; bash lite-adapter.sh 64; xz -c s.img -T0 > ../release/$rom_fp/system-roar-arm64-ab-vndklite-floss.img.xz )
+#( cd sas-creator; bash lite-adapter.sh 64; xz -c s.img -T0 > ../release/$rom_fp/system-roar-arm64-ab-vndklite-floss.img.xz )
 
 # ARM32 vanilla {ab, a-only}
 #buildVariant treble_arm_bvS-userdebug roar-arm-ab-vanilla
